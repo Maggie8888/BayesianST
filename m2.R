@@ -1,6 +1,6 @@
  rm(list=ls())
 
-dyn.load("~/Documents/spatial_temporal/c_code/weibull_main.so")
+dyn.load("~/Documents/spatial_temporal/c_code/m2.so")
 require(MASS)
 require(doMC)
 registerDoMC(cores=6)
